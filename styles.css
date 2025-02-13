@@ -51,6 +51,11 @@ body{
     font-weight: bold;
 }
 
+.button:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+  }
+
 #zero {
     width: 200px;
     background-color: white;
@@ -67,3 +72,8 @@ body{
 .button.operations {
     background-color: teal;
 }
+
+.button.operations:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+  }
