@@ -8,7 +8,7 @@ body{
 .container {
     border-style: solid;
     border-color: black;
-    height: 500px;
+    height: 600px;
     width: 400px;
     display: flex;
     flex-wrap: wrap;
@@ -22,6 +22,14 @@ body{
     height: 100px;
     border: 0px;
     background-color: gray;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 12px;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 80px;
+    font-size: 80px;
+    font-weight: bold;
 }
 
 .buttons {
@@ -32,10 +40,30 @@ body{
 .button {
     width: 100px;
     height: 100px;
-    border: 0px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: medium;
     background-color: orange;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-#one {
-    text-size-adjust: 100px;
+#zero {
+    width: 200px;
+    background-color: white;
+}
+
+#clear {
+    background-color: lightblue;
+}
+
+#operate {
+    background-color: red;
+}
+
+.button.operations {
+    background-color: teal;
 }

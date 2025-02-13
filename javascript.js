@@ -13,3 +13,5 @@ let oper = undefined;
 let num2 = 0;
 
 let operator = (num1, oper, num2) => oper(num1, num2); 
+
+const one = document.querySelector("#one");
